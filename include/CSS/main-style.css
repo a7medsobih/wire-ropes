@@ -263,11 +263,21 @@ header {
   color: var(--light-color);
 }
 
-.contact-info span {
+.contact-info span{
   margin-right: 25px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+.anchor{
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.anchor:hover{
+  color: var(--primary-color);
 }
 
 .contact-info i {
